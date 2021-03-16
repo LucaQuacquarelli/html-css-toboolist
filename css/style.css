@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     background-color: #F6F8F9
@@ -25,40 +25,118 @@ h1 {
     padding: 5px 20px;
 }
 
-
-.list-container {
-    width: 750px;
-    height: 500px;
-    margin: 3px auto;
-    background-color: white;
-    
-}
-
 .action {
     width: 750px;
     height: 50px;
     margin: 30px auto;
     margin-bottom: 3px;
     background-color:rgb(255, 255, 255);
-    padding: 10px 20px;
+    padding: 10px 50px;
 }
 
 .button {
     width: 80px;
     height: 30px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-    border: 1px solid grey;
+    border: 1px solid lightgray;
     border-radius: 5px;
     cursor: pointer;
 }
 
 #add-task {
     background-color: #47ADF1;
+    border: 1px solid #47ADF1;
     color: white;
 }
 
 #add-section {
     background-color: white;
-    color: grey;
+    color: lightgray;
+}
+
+/* main */
+.list-container {
+    width: 750px;
+    height: 500px;
+    margin: 3px auto;
+    background-color: white;
+    /* padding: 25px;
+    box-sizing: content-box; */
+}
+
+.list {
+    width: 400px;
+    height: 480px;
+}
+
+.do-it {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 1px 0 0 3px;
+    line-height: 100%;
+    display: inline-block;
+}
+
+#check {
+    color: #6BC3AE;
+    border: 2px solid #6BC3AE;
+    
+}
+
+.task {
+   display: inline-block;
+}
+
+.category {
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+#editorial {
+    background-color: #47ADF1;
+    padding: 8px 18px;  
+}
+
+.category-list {
+    margin-top: 15px;
+}
+
+.item-list{
+    margin-top: 15px;
+}
+
+#goal {
+    background-color: #9C72E4;
+    padding: 8px 0 0 15px;   
+}
+
+#cross {
+    border: 2px solid #EB5952;
+    color: #EB5952;
+}
+
+#recruiting {
+    background-color: #64C0A9;
+    padding: 8px 0 0 13px;  
+}
+
+#mobile {
+    background-color: #F29E33;
+    padding: 8px 0 0 23px; 
+}
+
+#website {
+    background-color: #D863A1;
+    padding: 8px 0 0 18px; 
+}
+
+#sales {
+    background-color: #B0C926;
+    padding: 8px 0 0 25px; 
 }
